@@ -117,7 +117,7 @@ toml = [
 
 [[package]]
 name = "ddd-shared-domain"
-version = "0.1.0.1"
+version = "0.1.0.2"
 source = { editable = "." }
 dependencies = [
     { name = "ddd-value-objects" },
@@ -130,7 +130,7 @@ dev = [
 ]
 
 [package.metadata]
-requires-dist = [{ name = "ddd-value-objects", specifier = "==0.1.7.1" }]
+requires-dist = [{ name = "ddd-value-objects", specifier = "==0.2.0" }]
 
 [package.metadata.requires-dev]
 dev = [
@@ -140,11 +140,11 @@ dev = [
 
 [[package]]
 name = "ddd-value-objects"
-version = "0.1.7.1"
+version = "0.2.0"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/a5/26/859c5fe252dbac6eb926735dd4ca5f1c9c60749e13d483e3590561773d25/ddd_value_objects-0.1.7.1.tar.gz", hash = "sha256:340ad685cfff73223c044e2345e2827f1f603157a42df59b61bca4ca000ec5cb", size = 14805, upload-time = "2026-01-15T03:18:01.862Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/d2/87/0c3f75373aad6c5d6131bfa0c60cf5d97d647c1cfbea5ecca297dacbc14a/ddd_value_objects-0.2.0.tar.gz", hash = "sha256:e4da7225b6065272c22355f2d3198847bd3a42ebed60b7c1d0486af9a766a27c", size = 16206, upload-time = "2026-02-22T04:01:26.414Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/c6/9a/bffb37bb0858b04d3366bf3dac2e2be02752903754730e7b2ed6da416273/ddd_value_objects-0.1.7.1-py3-none-any.whl", hash = "sha256:87453247c86f4d8e9a6882ca9c6baa2b966eea91afec85384648f8d105039b1c", size = 16359, upload-time = "2026-01-15T03:18:00.271Z" },
+    { url = "https://files.pythonhosted.org/packages/42/67/7e802243a1292ea9b0c7a0457cce9365adeae26138fd28955143c822f459/ddd_value_objects-0.2.0-py3-none-any.whl", hash = "sha256:947497589eb81ee7d08ba8a2ccfc4d578665e277995adcd5384e3af096a18a25", size = 17265, upload-time = "2026-02-22T04:01:25.064Z" },
 ]
 
 [[package]]
